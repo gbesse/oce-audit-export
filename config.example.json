@@ -1,0 +1,12 @@
+{
+  "databaseUrlFile": "/secure/path/readonly-database-url.key",
+  "hmacKeyFile": "/secure/path/audit-hmac.key",
+  "cursorFile": "/secure/path/audit.cursor.json",
+  "since": "2026-01-01T00:00:00.000Z",
+  "batchSize": 100,
+  "maxBatches": 100,
+  "sink": {
+    "type": "ndjson",
+    "outputFile": "/secure/path/audit.ndjson"
+  }
+}
